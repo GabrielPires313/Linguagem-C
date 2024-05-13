@@ -1,0 +1,17 @@
+#include <stdio.h>
+    int main ()
+{
+int nota_um=0;
+int nota_dois=0;
+int media=0;
+    printf ("Digite sua 1°nota: \n");
+    scanf ("%d", &nota_um);
+    printf ("Digite sua 2°nota: \n");
+    scanf ("%d", &nota_dois);
+    printf ("Sua 1°nota é %d \n", nota_um);
+    printf(" Sua 2° nota é %d \n", nota_dois);
+    media=(nota_um+nota_dois)/2;
+    printf("Sua média é %d \n", media);
+    
+    return 0;
+}
